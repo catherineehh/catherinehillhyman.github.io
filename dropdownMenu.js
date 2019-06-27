@@ -1,5 +1,5 @@
 function dropItDown(){
-document.getElementsByClassName("dropList").classList.toggle("show");
+document.getElementByID("cpt114").classList.toggle("show");
 }
 
 window.onclick = function(event) {
