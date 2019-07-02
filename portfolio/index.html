@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Creations by Catherine Hill Hyman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Designs, Development, Photography, and Writing by Catherine Hill Hyman">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="slideShow/slideShow.css">
+  <link rel="stylesheet" href="displayCSS/siteTemplate.css">
+  <link rel="stylesheet" href="displayCSS/main.css">
+  <link rel="stylesheet" href="displayCSS/artistStatements.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+
+    <header>
+
+      <h1>Catherine Hill Hyman</h1>
+
+
+    </header>
+    <nav>
+
+      <ul class="navList">
+        <li class="navItem">
+          <h2>Design</h2>
+        </li>
+        <li class="navItem">
+          <h2>Web Development</h2>
+        </li>
+        <li class="navItem">
+          <h2>Photography</h2>
+        </li>
+        <li class="navItem">
+          <h2>Writing</h2>
+        </li>
+      </ul>
+
+    </nav>
+
+    <main>
+
+      <section class="galleryNavs">
+
+        <!-- Design -->
+
+        <ul class="designGalleries">
+          <li>
+            <h3>Currently Unavailable</h3>
+          </li>
+        </ul>
+
+        <!-- Development -->
+
+        <ul class="devGalleries">
+          <li>
+            <h3>Currently Unavailable</h3>
+          </li>
+        </ul>
+
+        <!-- Photography -->
+
+
+        <ul class="photoGalleries">
+
+          <li class="photoItems" id="byhGallery">
+            <h3>Bless Your Heart</h3>
+          </li>
+          <li class="photoItems" id="comGallery">
+            <h3>Commissioned</h3>
+          </li>
+          <li class="photoItems" id="indieGallery">
+            <h3>Independent</h3>
+          </li>
+          <li class="photoItems" id="dodGallery">
+            <h3>Days of Disorientation</h3>
+          </li>
+          <li class="photoItems" id="tbaGallery">
+            <h3>There & Back Again</h3>
+          </li>
+
+        </ul>
+
+
+        <!-- Writing -->
+
+        <ul class="writingGalleries">
+          <li>
+            <h3>Currently Unavailable</h3>
+          </li>
+        </ul>
+
+      </section>
+
+
+
+      <section class="gallerySlides">
+
+        <!-- begin photo slideshow-->
+
+        <div class="photoSlideshow">
+
+          <div class="exitSlideshow">
+            <button name="exitSlides" class="exSlideButton">x</button>
+          </div>
+
+          <div class="leftButton">
+            <button name="prevButt" onclick="nextSlide(-1, 0)" class="slideButton">&#10094;</button>
+          </div>
+
+          <div class="byhImg">
+            <img class="verticalImg" id="uncleBud1" src="portfolios/photography/galleries/BlessYourHeart/unclebud001.jpg" alt="black and white image of a man in camouflage standing on the bed of a truck with a shotgun over his shoulder. Set on a lonely muddy road in the woods.">
+          </div>
+
+          <div class="byhImg">
+            <img class="squareImg" id="robiAnn1" src="portfolios/photography/galleries/BlessYourHeart/smiths007.jpg" alt="black and white image of a woman in a white dress from a distance peeking out from behind a tree. Strange vertical streaks of light reach down from the sky through the forest.">
+          </div>
+
+          <div class="byhImg">
+            <img class="horizontalImg" id="uncleBud2" src="portfolios/photography/galleries/BlessYourHeart/unclebud028.jpg" alt="black and white image of a dog sniffing the body of a dead deer in the mud.">
+          </div>
+
+          <div class="byhImg">
+            <img class="squareImg" id="robiAnn2" src="portfolios/photography/galleries/BlessYourHeart/smiths001.jpg" alt="black and white image of half a woman's face with dark hair looming over the camera. Her eyes are not visible.">
+          </div>
+
+          <div class="byhImg">
+            <img class="horizontalImg" id="uncleBud3" src="portfolios/photography/galleries/BlessYourHeart/unclebud066.jpg" alt="black and white image of two men in camouflage dragging a dead dear's body by the antlers through brush. A dog leaps excitedly behind them out of the right side of the image.">
+          </div>
+
+          <div class="rightButton">
+            <button name="nextButt" onclick="nextSlide(1, 0)" class="slideButton">&#10095;</button>
+          </div>
+
+          <div class="statementLink">
+            <button name="blessYourHeart" class="byhStatementButton">Artist Statement</button>
+          </div>
+
+        </div>
+
+        <!-- end photo slideshow-->
+
+      </section>
+
+
+      <section class="artistStatements">
+
+        <div class="exitStatement">
+          <button name="button" class="exStatement">x</button>
+        </div>
+
+        <div class="statementDisplay" id="byhStatement">
+          <p class="seriesStatement">
+
+            Currently I am writing a book called <i>Bless Your Heart</i>, which features a photographer named Zoe as the main protagonist.
+            Zoe grew up in the rural south of the US where her grandfather often took her hunting.<br /><br />
+
+            She mostly shoots weddings and events with a digital camera for a living.
+            However, she is obsessed with analogue photography, and she will bring her cameras when she goes hunting with her grandfather.<br /><br />
+
+            Most of these images document my own experiences that have influenced this book, while the others attempt to capture the horrors Zoe experiences later on in the book.<br /><br />
+
+            Zoe would enjoy shooting with the cameras I used in this series.
+            I documented a few hunts with my uncle using a 35mm Canon, which was not staged.
+            The images of the woman (a dear cousin of mine) are staged, and I captured her stunning portraits with a medium format Hassleblad.
+
+          </p>
+        </div>
+
+      </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+
+      <div class="footNav">
+        <a href="" class="footLink">About</a>
+        <a href="" class="footLink">Contact</a>
+      </div>
+
+
+    </footer>
+
+
+
+  </div>
+
+
+  <script src="slideShow/slideShow.js">
+
+  </script>
+
+</body>
+
+</html>
