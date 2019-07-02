@@ -1,0 +1,48 @@
+section.artistStatements{
+  display:none;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 60%;
+  height:100%;
+  width:100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.exitStatement{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.exStatement{
+  font-size: 1.5em;
+  background: transparent;
+  border:none;
+  height:100%;
+  width:10%;
+  margin:0px;
+  padding:0px;
+  outline:0;
+}
+
+.exStatement:hover{
+  color:#ff5566;
+}
+
+p.seriesStatement{
+  display: block;
+  height:100%;
+  width:100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding:10px;
+}
