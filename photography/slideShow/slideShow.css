@@ -1,0 +1,161 @@
+.portfolioNav{
+  display:none;
+}
+
+ul.galList{
+  display:none;
+}
+
+.galSlides{
+  display:block;
+  height:100%;
+  width:100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.galSlideshow{
+  height:100%;
+  width:100%;
+  display:grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% 85% 5%;
+  margin:0px;
+  padding:0px;
+}
+
+/* Hide the images by default */
+.slideImg {
+  width:100%;
+  height:100%;
+  display: none;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (orientation:landscape) {
+  .squareImg{
+    height:100%;
+    width:auto;
+  }
+
+  .horizontalImg{
+    height:100%;
+    width:auto;
+  }
+
+  .verticalImg {
+    height:100%;
+    width:auto;
+  }
+
+  .exitSlides{
+    font-size: 4vw;
+  }
+}
+
+@media (orientation:portrait) {
+  .squareImg{
+    width:100%;
+    height:auto;
+  }
+
+  .horizontalImg{
+    width:100%;
+    height:auto;
+  }
+
+  .verticalImg {
+    width:100%;
+    height:auto;
+  }
+
+  .exitSlides{
+    font-size: 6vw;
+  }
+}
+
+.exitSlideshow{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+
+.exitSlides{
+  width:100%;
+  height:100%;
+  text-decoration: none;
+  color:inherit;
+  text-align: center;
+  font-weight: 300;
+}
+
+.exitSlides:hover{
+    color:#ff5566;
+}
+
+.leftButton, .rightButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.leftButton{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.rightButton{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.slideButton{
+  cursor:pointer;
+  height:50%;
+  width:50%;
+  background:transparent;
+  border: none;
+  font-size: 90%;
+  outline:0;
+  font-weight: 100;
+  font-family: "Josefin Sans", sans-serif;
+}
+.slideButton:hover{
+  color:#ff5566;
+}
+
+.statementDiv{
+  margin:15px 0px 0px 0px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+
+.statementLink{
+  text-decoration: none;
+  color:inherit;
+}
+
+.statementLink:hover{
+  color:#ff5566;
+}
