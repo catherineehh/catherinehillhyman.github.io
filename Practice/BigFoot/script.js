@@ -3,12 +3,12 @@ function loadBigFoot(){
 }
 
 function moveBigFoot() {
-  alert('Woohoo, you win! You found Bigfoot!')
-  var picture = document.getElementById('bigFoot')
+  alert('Woohoo, you win! You found Bigfoot!');
+  var picture = document.getElementById('bigFoot');
 
-  var x = Math.random() * 300
-  var y = Math.random() * 300
+  var x = Math.random() * 1000;
+  var y = Math.random() * 1000;
 
-  picture.style.top = x + 'px'
-  picture.style.left = y + 'px'
+  picture.style.top = x + 'px';
+  picture.style.left = y + 'px';
 }
