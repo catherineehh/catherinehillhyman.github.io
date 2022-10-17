@@ -1,0 +1,39 @@
+ul.galList{
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30% 30%;
+}
+
+li#byhGallery{
+  background: url("galleries/BlessYourHeart/smiths007.jpg");
+  background-size: 150% auto;
+}
+
+li#comGallery{
+  background: url("galleries/Commission/DSC_9971-flip.jpg") center;
+  background-size: 150% auto;
+}
+
+li#indieGallery{
+  background: url("galleries/Indie/DSC_8172-flip.jpg") bottom center;
+}
+
+li#dodGallery{
+  background: url("galleries/Disorientation/03-summer.jpg");
+}
+
+li#tbaGallery{
+  background: url("galleries/ThereBackAgain/010-2.jpg") bottom left;
+  background-size: 180% auto;
+}
+
+@media only screen and (min-width:501px) {
+  li#indieGallery, li#dodGallery{
+    background-size: 150% auto;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  li#indieGallery, li#dodGallery{
+    background-size: auto 150%;
+  }
+}
